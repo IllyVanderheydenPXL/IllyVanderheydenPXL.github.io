@@ -44,6 +44,7 @@ aside a {
     list-style-type: none;
     display: inline;
     float: left;
+    margin: 5px;
 }
 #songlist iframe{
     position: relative;
