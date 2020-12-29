@@ -44,7 +44,6 @@ aside a {
     list-style-type: none;
     display: inline;
     float: left;
-    margin: 5px;
 }
 #songlist iframe{
     position: relative;
@@ -58,4 +57,9 @@ aside a {
 }
 #songlist a:hover{
     text-decoration: underline;
+}
+#pagefooter{
+    clear: both;
+    margin-top: 2em;
+    text-align: center;
 }
