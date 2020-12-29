@@ -3,6 +3,14 @@ body {
     background-color: black;
 }
 
+.title {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    border: none;
+}
+
 .title img {
     width: 200px;
     display: inline;
@@ -25,4 +33,28 @@ iframe {
 
 aside a {
     color: #00d856;
+}
+
+#songlist li{
+    width: 310px;
+    height: 125px;
+    box-sizing: border-box;
+    border: #00d856 solid thin;
+    vertical-align: middle;
+    list-style-type: none;
+    display: inline;
+    float: left;
+}
+#songlist iframe{
+    position: relative;
+    left: 4px;
+}
+
+#songlist a{
+    font-family: "Century Schoolbook", sans-serif;
+    text-decoration: none;
+    color: white;
+}
+#songlist a:hover{
+    text-decoration: underline;
 }
