@@ -3,14 +3,6 @@ body {
     background-color: black;
 }
 
-.title {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    background-color: black;
-    border: none;
-}
-
 .title img {
     width: 200px;
     display: inline;
